@@ -1,6 +1,10 @@
 package sistemabancario;
 
+import sistemabancario.Banco;
+import sistemabancario.ContaCorrente;
+import sistemabancario.ContaPoupanca;
 import javax.swing.JOptionPane;
+
 
 public class Cadastro extends javax.swing.JFrame {
 

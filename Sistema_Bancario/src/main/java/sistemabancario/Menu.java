@@ -1,5 +1,16 @@
 package sistemabancario;
 
+import sistemabancario.Cadastro;
+import sistemabancario.Banco;
+import sistemabancario.ContaCorrente;
+import sistemabancario.ContaPoupanca;
+import sistemabancario.Conexao;
+//import com.google.gson.Gson;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.HashMap;
 import javax.swing.JOptionPane;
 
 public class Menu extends javax.swing.JFrame {
@@ -41,7 +52,7 @@ public class Menu extends javax.swing.JFrame {
         setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
-        jLabel1.setText("Bem - vindo!");
+        jLabel1.setText("Escolha uma opção");
         jLabel1.setToolTipText("");
 
         jLabel2.setFont(new java.awt.Font("arial", 0, 16)); // NOI18N
